@@ -1,24 +1,30 @@
-# README
+# Ruby computer users
+This is a project done for Sparta global to practice using User associations in Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To use this project git pull or clone the repository to your computer
 
-Things you may want to cover:
+If this is the first time using the project run
 
-* Ruby version
+```
+rails db:drop db:create db:migrate
+```
 
-* System dependencies
+Otherwise run
 
-* Configuration
+```
+rails db:migrate
+```
 
-* Database creation
+Then run
 
-* Database initialization
+```
+bundle install
+```
 
-* How to run the test suite
+To add the needed gems. Type
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rails s
+```
 
-* Deployment instructions
-
-* ...
+into the console to run the server. You can connect to it by going to localhost:3000 in your browser.
